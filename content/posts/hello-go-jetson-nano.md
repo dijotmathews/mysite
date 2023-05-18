@@ -1,7 +1,7 @@
 ---
 title: "Hello Go Jetson Nano"
 date: 2023-05-18T10:51:03+05:30
-draft: true
+draft: false
 ---
 
 
@@ -67,3 +67,4 @@ clean:
 	rm -rf ${BINARY_NAME}
 ```
 
+Very straightforward!!
