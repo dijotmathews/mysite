@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My Musings</title>
+    <link>http://dijotm.in/</link>
+    <description>Recent content on My Musings</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 18 May 2023 10:51:03 +0530</lastBuildDate><atom:link href="http://dijotm.in/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hello Go Jetson Nano</title>
+      <link>http://dijotm.in/posts/hello-go-jetson-nano/</link>
+      <pubDate>Thu, 18 May 2023 10:51:03 +0530</pubDate>
+      
+      <guid>http://dijotm.in/posts/hello-go-jetson-nano/</guid>
+      <description>We are going to run an Golang binary in Jetson nano. First write a simple go program.
+package main import &amp;quot;fmt&amp;quot; func main() { fmt.Println(&amp;quot;Hello Jetson Nano!&amp;quot;) } Compile for arm64 on linux. If your platform is different, use below list to figure it out.
+go tool dist list | grep arm android/arm android/arm64 darwin/arm64 freebsd/arm freebsd/arm64 ios/arm64 linux/arm linux/arm64 netbsd/arm netbsd/arm64 openbsd/arm openbsd/arm64 plan9/arm windows/arm windows/arm64 In Jetsons case it linux/arm64</description>
+    </item>
+    
+    <item>
+      <title>Hello Post</title>
+      <link>http://dijotm.in/posts/hello-post/</link>
+      <pubDate>Wed, 17 May 2023 12:08:50 +0530</pubDate>
+      
+      <guid>http://dijotm.in/posts/hello-post/</guid>
+      <description>Hello World from my blog This is the first blog.</description>
+    </item>
+    
+  </channel>
+</rss>
